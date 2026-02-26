@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Platformer Project"
-run/main_scene="res://area_2d.tscn"
+run/main_scene="uid://bwhshx1bpeg4y"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="uid://c40s4pm32iqjq"
 
@@ -26,3 +26,7 @@ folder_colors={
 "res://scenes/": "yellow",
 "res://scripts/": "purple"
 }
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
