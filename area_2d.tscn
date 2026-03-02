@@ -103,7 +103,7 @@ collision_mask = 2
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, 1)
 sprite_frames = SubResource("SpriteFrames_njl78")
-frame_progress = 0.685738
+frame_progress = 0.991992
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D"]
 shape = SubResource("CircleShape2D_k4j6d")
