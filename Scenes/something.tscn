@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://bwhshx1bpeg4y"]
+[gd_scene load_steps=4 format=3 uid="uid://bwhshx1bpeg4y"]
 
 [ext_resource type="PackedScene" uid="uid://qynqw7bwwyj2" path="res://Scenes/player.tscn" id="1_tnewh"]
 [ext_resource type="PackedScene" uid="uid://wxlrcp53vtj7" path="res://Scenes/music.tscn" id="2_ih6oi"]
+[ext_resource type="AudioStream" uid="uid://d1elugdi7jygw" path="res://Assets/music/24. Blood and Honor.mp3" id="3_hx2bv"]
 
 [node name="Game" type="Node2D"]
 
@@ -14,3 +15,4 @@ zoom = Vector2(4, 4)
 
 [node name="music" parent="." instance=ExtResource("2_ih6oi")]
 position = Vector2(-1, 0)
+stream = ExtResource("3_hx2bv")

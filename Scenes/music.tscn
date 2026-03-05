@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://wxlrcp53vtj7"]
 
-[ext_resource type="AudioStream" uid="uid://cl1eq320q84dt" path="res://Assets/music/Pixel 3.mp3" id="1_fbmny"]
+[ext_resource type="AudioStream" uid="uid://d1elugdi7jygw" path="res://Assets/music/24. Blood and Honor.mp3" id="1_fbmny"]
 
 [node name="music" type="AudioStreamPlayer2D"]
 stream = ExtResource("1_fbmny")
