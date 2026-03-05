@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Platformer Project"
-run/main_scene="uid://bwhshx1bpeg4y"
+run/main_scene="uid://b4bt5h07rhhc7"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="uid://c40s4pm32iqjq"
 
