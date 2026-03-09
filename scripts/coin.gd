@@ -4,5 +4,6 @@ extends Area2D
 @onready var animation_player = $AnimationPlayer
 
 func _on_body_entered(body):
-	print("+1 coin")
+ 	game_manager.add_point()
+
 	animation_player.play("Pickup animation")
