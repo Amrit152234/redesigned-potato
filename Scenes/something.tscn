@@ -1,10 +1,10 @@
 [gd_scene load_steps=13 format=4 uid="uid://bwhshx1bpeg4y"]
 
-[ext_resource type="PackedScene" uid="uid://bmka7jtu3cik7" path="res://Scenes/player.tscn" id="1_tnewh"]
+[ext_resource type="PackedScene" uid="uid://bmka7jtu3cik7" path="res://scenes/player.tscn" id="1_tnewh"]
 [ext_resource type="Texture2D" uid="uid://bxfmq6twk8ida" path="res://Assets/sprites/world_tileset.png" id="2_ih6oi"]
 [ext_resource type="PackedScene" uid="uid://wxlrcp53vtj7" path="res://scenes/music.tscn" id="3_ih6oi"]
-[ext_resource type="PackedScene" uid="uid://b71gxpo4ex1v2" path="res://Scenes/kill_zone.tscn" id="4_eubf5"]
-[ext_resource type="PackedScene" uid="uid://vd5f041gchub" path="res://Scenes/platform.tscn" id="5_yhemt"]
+[ext_resource type="PackedScene" uid="uid://b71gxpo4ex1v2" path="res://scenes/kill_zone.tscn" id="4_eubf5"]
+[ext_resource type="PackedScene" uid="uid://vd5f041gchub" path="res://scenes/platform.tscn" id="5_yhemt"]
 [ext_resource type="PackedScene" uid="uid://clamj11qcm2hy" path="res://scenes/coin.tscn" id="6_qornm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hx2bv"]
