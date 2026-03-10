@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=4 uid="uid://bwhshx1bpeg4y"]
+[gd_scene load_steps=14 format=4 uid="uid://bwhshx1bpeg4y"]
 
 [ext_resource type="Script" path="res://scenes/game_manager.gd" id="1_eit8g"]
 [ext_resource type="PackedScene" uid="uid://bmka7jtu3cik7" path="res://scenes/player.tscn" id="1_tnewh"]
@@ -7,7 +7,6 @@
 [ext_resource type="PackedScene" uid="uid://b71gxpo4ex1v2" path="res://scenes/kill_zone.tscn" id="4_eubf5"]
 [ext_resource type="PackedScene" uid="uid://vd5f041gchub" path="res://scenes/platform.tscn" id="5_yhemt"]
 [ext_resource type="PackedScene" uid="uid://clamj11qcm2hy" path="res://scenes/coin.tscn" id="6_qornm"]
-[ext_resource type="PackedScene" uid="uid://by2bcheqeryrc" path="res://slime.tscn" id="8_vnh0o"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hx2bv"]
 texture = ExtResource("2_ih6oi")
@@ -343,6 +342,3 @@ offset_right = 974.0
 offset_bottom = -194.0
 scale = Vector2(0.555714, 0.845111)
 text = "You made it!"
-
-[node name="Node2D" parent="." instance=ExtResource("8_vnh0o")]
-position = Vector2(535, 41)
