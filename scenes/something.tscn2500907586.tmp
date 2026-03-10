@@ -3,11 +3,10 @@
 [ext_resource type="Script" uid="uid://c3w7hbnxxoryk" path="res://scenes/game_manager.gd" id="1_eit8g"]
 [ext_resource type="PackedScene" uid="uid://bmka7jtu3cik7" path="res://scenes/player.tscn" id="1_tnewh"]
 [ext_resource type="Texture2D" uid="uid://bxfmq6twk8ida" path="res://Assets/sprites/world_tileset.png" id="2_ih6oi"]
-[ext_resource type="PackedScene" uid="uid://wxlrcp53vtj7" path="res://Scenes/music.tscn" id="3_ih6oi"]
-[ext_resource type="PackedScene" uid="uid://cl7jft5vgpubl" path="res://Scenes/kill_zone.tscn" id="4_eubf5"]
-[ext_resource type="PackedScene" uid="uid://hj4bef3lwchw" path="res://Scenes/platform.tscn" id="5_yhemt"]
-[ext_resource type="PackedScene" uid="uid://clamj11qcm2hy" path="res://Scenes/coin.tscn" id="6_qornm"]
-[ext_resource type="PackedScene" uid="uid://vvvcfgjxqj77" path="res://Scenes/slime.tscn" id="7_qornm"]
+[ext_resource type="PackedScene" uid="uid://wxlrcp53vtj7" path="res://scenes/music.tscn" id="3_ih6oi"]
+[ext_resource type="PackedScene" uid="uid://b71gxpo4ex1v2" path="res://scenes/kill_zone.tscn" id="4_eubf5"]
+[ext_resource type="PackedScene" uid="uid://vd5f041gchub" path="res://scenes/platform.tscn" id="5_yhemt"]
+[ext_resource type="PackedScene" uid="uid://clamj11qcm2hy" path="res://scenes/coin.tscn" id="6_qornm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_hx2bv"]
 texture = ExtResource("2_ih6oi")
@@ -217,7 +216,6 @@ _data = {
 position = Vector2(339, 20)
 
 [node name="GameManager" type="Node" parent="."]
-unique_name_in_owner = true
 script = ExtResource("1_eit8g")
 
 [node name="scorelabel" type="Label" parent="GameManager"]
@@ -300,8 +298,6 @@ autoplay = "move"
 [node name="Coin" parent="." instance=ExtResource("6_qornm")]
 position = Vector2(44, 25)
 
-[node name="Silme" parent="." instance=ExtResource("7_qornm")]
-position = Vector2(488, 36)
 [node name="Coin2" parent="." instance=ExtResource("6_qornm")]
 position = Vector2(183, 25)
 
@@ -333,7 +329,6 @@ position = Vector2(410, 4)
 position = Vector2(424, 5)
 
 [node name="labeks" type="Node" parent="."]
-unique_name_in_owner = true
 
 [node name="Label" type="Label" parent="labeks"]
 offset_left = 877.0
