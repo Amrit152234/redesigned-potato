@@ -216,6 +216,7 @@ _data = {
 position = Vector2(339, 20)
 
 [node name="GameManager" type="Node" parent="."]
+unique_name_in_owner = true
 script = ExtResource("1_eit8g")
 
 [node name="scorelabel" type="Label" parent="GameManager"]
@@ -329,6 +330,7 @@ position = Vector2(410, 4)
 position = Vector2(424, 5)
 
 [node name="labeks" type="Node" parent="."]
+unique_name_in_owner = true
 
 [node name="Label" type="Label" parent="labeks"]
 offset_left = 877.0
